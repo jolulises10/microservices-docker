@@ -1,0 +1,10 @@
+.idea
+*.iml
+.git/
+.gradle
+gradle
+gradlew
+gradlew.bat
+HELP.md
+out/
+Dockerfile

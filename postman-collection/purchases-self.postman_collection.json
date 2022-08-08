@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "23dbc6e9-0eaa-4fd8-a706-c32b046094f9",
+		"name": "purchases-self",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "purchases-9000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/purchases",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"purchases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "purchases-9090-compose",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/purchases",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"purchases"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

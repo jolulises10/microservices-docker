@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  mktpl-purchases-api-compose:
+    build:
+      context: .
+      args:
+        APP_ARG: ${SPRING_PROFILE}
+        IP_ARG: ${DB_IP}
+        DB_NAME_ARG: ${DB_NAME}
+        DB_USERNAME_ARG: ${DB_USERNAME}
+        DB_PASSWORD_ARG: ${DB_PWD}
+    ports:
+      - 9090:9000
+    container_name: mktpl-purchases-api-compose
+networks:
+  default:
+      name: purchasesNetwork
+      external: true
