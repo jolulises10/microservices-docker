@@ -28,3 +28,7 @@ hs_err_pid*
 #IDE's
 .idea
 .vscode
+
+.gradle
+
+build/
